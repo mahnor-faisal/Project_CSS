@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>View Product - E-Commerce</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="../Styles/styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <a href="../index.html" class="logo"><i class="fa-solid fa-cart-shopping"></i> <strong>E-Commerce</strong></a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../Pages/about.html">About</a></li>
+        <li><a href="../Pages/contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-icons">
+        <a href="../Pages/wishlist.html"><i class="fa-solid fa-heart"></i></a>
+        <a href="../Pages/cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="../Pages/adminDash.html" class="btn">Admin Dashboard</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Sidebar + Main Layout -->
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <ul>
+        <li><i class="fa-solid fa-gauge"></i><a href="../Pages/adminDash.html">Dashboard</a></li>
+        <li><i class="fa-solid fa-plus"></i> <a href="../Pages/addPro.html">Add Product</a></li>
+        <li><i class="fa-solid fa-eye"></i> <a href="../Pages/viewPro.html">View Product</a></li>
+        <li><i class="fa-solid fa-right-from-bracket"></i><a href="../Pages/login.html">Logout</a></li>
+      </ul>
+    </aside>
+
+   <!-- Main Content -->
+    <main class="main-content">
+      <div class="card">
+        <h2>View Products</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Image</th>
+              <th>Title</th>
+              <th>Description</th>
+              <th>Price</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1760559537633</td>
+              <td><img src="../assets/laptop.webp" alt="Laptop"></td>
+              <td>Laptop</td>
+              <td>Good Laptop with 16GB Ram 1TB SSD.</td>
+              <td>$1400</td>
+              <td>
+                <button class="btn-edit">Edit</button>
+                <button class="btn-remove">Remove</button>
+              </td>
+            </tr>
+            <tr>
+              <td>1760559566662</td>
+              <td><img src="../assets/Iphone.webp" alt="Iphone"></td>
+              <td>Iphone</td>
+              <td>Apple Iphone 256GB memory with complete box Pack.</td>
+              <td>$190</td>
+              <td>
+                <button class="btn-edit">Edit</button>
+                <button class="btn-remove">Remove</button>
+              </td>
+            </tr>
+            <tr>
+              <td>1760559597055</td>
+              <td><img src="../assets/blender.webp" alt="Blender"></td>
+              <td>Blender</td>
+              <td>Home appliances best blender with various cutters.</td>
+              <td>$120</td>
+              <td>
+                <button class="btn-edit">Edit</button>
+                <button class="btn-remove">Remove</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4><i class="fa-solid fa-cart-shopping"></i> E-Commerce</h4>
+        <p>Your one-stop shop for the latest trends in fashion, electronics, and lifestyle. Shop smart. Shop easy.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../Pages/about.html">About</a></li>
+          <li><a href="../Pages/contact.html">Contact</a></li>
+          <li><a href="../Pages/adminDash.html">Dashboard</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Customer Service</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Help & Support</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p><i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</p>
+        <p><i class="fa-regular fa-envelope"></i> support1@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +92 312 3456789</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 E-Commerce. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
